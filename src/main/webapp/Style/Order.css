@@ -1,0 +1,143 @@
+
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topbar{
+  box-sizing: border-box;
+  border: 2px solid #3E362E;
+  display: flex;
+  top: 0;
+  left: 0;
+  align-items: center;
+  height: 120px;
+  font-family: "Sofia-Regular", Helvetica;
+  background-color: #865d36;
+}
+
+.image{
+  position: relative;
+   width: 100px;
+   height: 100px;
+   margin-bottom: 0px;
+   margin-left: 20px;
+   object-fit: cover;
+ }
+
+ .title{
+  flex: 1;
+  margin-left: 2%;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 60px;
+  color: #3E362E;
+  position: relative;
+ }
+
+ .topbar ul{
+  flex: 2;
+  text-align: center;
+
+ }
+
+.topbar ul li{
+  display:inline-flex;
+  margin: 10px 0px;
+  padding: 8px;
+}
+
+
+.topbar ul li a{
+  display: inline-flex;
+  text-decoration: none;
+  color: #000000;
+  font-size: 25px;
+  align-items: center;
+  position: relative;
+}
+
+.topbar ul li a:hover{
+  padding: 12px;
+  background-color: #3e362e;
+  transition: 10s;
+ }
+ 
+   .badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.badge-danger {
+  color: #fff;
+  background-color: #dc3545;
+}
+
+ .container{
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 20px;
+
+ }
+
+ .card-header{
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+ border-bottom: 2px solid #ccc;
+ font-size: 20px;
+ font-family: "Sofia-Regular", Helvetica;
+ font-weight: 300;
+ }
+
+ .table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+ }
+
+ .table th,
+ .table td{
+  padding: 8px;
+  border: 2px solid #dee2e6;
+ }
+
+ .table th{
+  background-color: #f8f9fa;
+  font-size: 25px;
+ }
+ 
+ .table td{
+  font-size: 20px;
+  font-weight: 200;
+ }
+
+ .table-light {
+  background-color: #f8f9fa; 
+}
+
+.table-light th {
+  color: #495057; 
+}
+
+.btn{
+text-decoration: none;
+background-color: crimson;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+
+}
+
+ 
