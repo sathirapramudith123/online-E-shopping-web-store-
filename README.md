@@ -19,6 +19,7 @@ Key Features
 Technologies Used
 
 1. Front-end: HTML, CSS, JavaScript
-2. Back-end: Possibly Node.js, PHP, or another server-side technology
+2. Back-end: Possibly Serverlet, Java, or another server-side technology
+3. Database: Mysql Workbench
 
-If you'd like more information or specifics about the project, feel free to ask!
+
